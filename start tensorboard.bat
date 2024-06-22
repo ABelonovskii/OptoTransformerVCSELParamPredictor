@@ -1,0 +1,1 @@
+tensorboard.exe --logdir=runs --port=6006

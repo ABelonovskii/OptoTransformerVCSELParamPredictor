@@ -1,0 +1,36 @@
+runtime:
+  train: false
+  test: false
+  predict: false
+  load_weights: false
+
+training:
+  batch_size: 20
+  num_epochs: 5
+  learning_rate: 0.0001
+  use_scheduler: true
+  scheduler_params:
+    factor: 0.1
+    patience: 10
+
+model:
+  params_path: ./models/model_v1/model_params.yaml
+  weight_path: ./models/model_v1/model_weights.pt
+
+data:
+  path: ./data/vcsel_datadb
+
+predictions:
+  directory: ./predictions
+  samples_file: ./predictions/prediction_samples_TMG.txt
+
+model_types:
+  eigen_energy:
+    enabled: false
+    description: "Model for predicting eigen energies"
+  quality_factor:
+    enabled: false
+    description: "Model for predicting quality factors"
+  threshold_material_gain:
+    enabled: true
+    description: "Model for predicting threshold material gain "

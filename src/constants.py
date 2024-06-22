@@ -1,0 +1,20 @@
+EIGEN_ENERGY = 'eigen_energy'
+QUALITY_FACTOR = 'quality_factor'
+THRESHOLD_GAIN = 'threshold_material_gain'
+
+# Token names for properties
+N = 'N'
+K = 'K'
+BOUNDARY = 'BOUNDARY'
+THICKNESS = 'THICKNESS'
+GAIN = 'GAIN'
+ENERGY = 'ENERGY'
+EIGEN_ENERGY_1 = 'EIGEN_ENERGY_1'
+EIGEN_ENERGY_2 = 'EIGEN_ENERGY_2'
+Q1 = 'Q1'
+Q2 = 'Q2'
+PAIRS_COUNT = 'PAIRS_COUNT'
+DUAL_LAYER = 'DUAL_LAYER'
+RADIUS = 'RADIUS'
+END_OF_LAYER = '}'  # Adjusted the token name for clarity
+THRESHOLD_MATERIAL_GAIN = 'TRESHOLD_MATERIAL_GAIN'

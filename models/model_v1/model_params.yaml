@@ -1,0 +1,11 @@
+# Parameters for the transformer model
+one_hot_size: 11 # Fixed number of physical embeddings (do not change)
+train_emb_size: 5 # Number of trainable parameters in the embedding
+nhead: 8 # Number of attention heads (must be a divisor of one-hot + train_enc)
+nhid: 128 # Size of the hidden layer
+nlayers: 5 # Number of encoder layers
+output_size: 2 # Dimensionality of the model output
+dropout: 0.2 # Dropout rate
+hidden_sizes: [512, 64, 31, 16] # Structure of the decoder network
+seq_len: 31 # max len for structure
+
