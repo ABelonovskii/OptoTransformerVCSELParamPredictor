@@ -5,8 +5,8 @@
 </div>
 
 ## Project Overview
-This project applies a transformer-based machine learning model to predict various parameters of Vertical-Cavity Surface-Emitting Lasers (VCSELs) from their structural data. The implementation leverages deep learning techniques to understand and predict critical performance metrics from VCSEL architectures. For a detailed theoretical background, you can refer to our preprint here:
-> Belonovskii, A. V., Girshova, E. I., Lähderanta, E., & Kaliteevski, M. (2024). Predicting VCSEL Emission Properties Using Transformer Neural Networks. arXiv preprint arXiv:2407.06039. https://arxiv.org/abs/2407.06039
+This project applies a transformer-based machine learning model to predict various parameters of Vertical-Cavity Surface-Emitting Lasers (VCSELs) from their structural data. The implementation leverages deep learning techniques to understand and predict critical performance metrics from VCSEL architectures. For a detailed theoretical background, you can refer to our article here:
+> [A. Belonovskii, E. Girshova, E. Lähderanta, M. Kaliteevski, Predicting VCSEL Emission Properties using Transformer Neural Networks. Laser Photonics Rev 2025, 2401636.](https://doi.org/10.1002/lpor.202401636)
 
 ## Demo
 To experience the capabilities of the OptoTransformer firsthand, visit my interactive web interface available at:
